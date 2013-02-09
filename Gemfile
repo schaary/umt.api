@@ -6,4 +6,4 @@ gem 'ruby-oci8'
 gem 'activerecord-oracle_enhanced-adapter'
 gem 'ruby-plsql'
 gem 'hirb-unicode'
-
+gem 'thin'
