@@ -4,5 +4,5 @@ class Account < ActiveRecord::Base
   # specify primary key name
   set_primary_key "username"
 
-  attr_accessible :username, :email, :account_type
+  attr_accessible :username, :email, :account_type, :name
 end
