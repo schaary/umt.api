@@ -7,6 +7,10 @@ This RESTful API allows dedicated access to the identity management tool of the
 
 **Requires Ruby 1.9.3 or later.**
 
+    bundle
+    cp config/database.example.yml config/database.yml
+    rails s
+
 ## Usage
 
 
