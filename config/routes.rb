@@ -1,6 +1,11 @@
 UmtRest::Application.routes.draw do
-  resources :people, only: [:index, :show]
-  resources :accounts, only: [:index, :show]
+  namespace :api do
+    namespace :v1 do
+      resources :people, only: [:show]
+      resources :accounts, only: [:show]
+      resources :emails, only: [:create]
+    end
+  end
 
   root :controller => 'static', :action => '/'
 end
