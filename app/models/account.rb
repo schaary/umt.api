@@ -5,4 +5,6 @@ class Account < ActiveRecord::Base
   set_primary_key "username"
 
   attr_accessible :username, :email, :account_type, :name
+
+  validates :username, length: { is: 5 }
 end

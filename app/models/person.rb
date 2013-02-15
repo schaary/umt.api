@@ -5,5 +5,6 @@ class Person < ActiveRecord::Base
   self.set_primary_key "username"
 
   attr_accessible :username, :firstname, :lastname, :birthday_on, :gender
-  # attr_accessible :title, :body
+
+  validates :username, length: { is: 5 }
 end
