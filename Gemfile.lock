@@ -30,11 +30,14 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.2)
+    awesome_print (1.1.0)
     builder (3.0.4)
     coderay (1.0.8)
     daemons (1.1.9)
     erubis (2.7.0)
     eventmachine (1.0.0)
+    figaro (0.5.3)
+      rails (~> 3.0)
     hike (1.2.1)
     hirb (0.7.1)
     hirb-unicode (0.0.5)
@@ -111,6 +114,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-oracle_enhanced-adapter
+  awesome_print
+  figaro
   hirb-unicode
   pry
   pry-rails
